@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    dbf (2.0.7)
+      fastercsv (~> 1.5.4)
+    fastercsv (1.5.5)
+    ffi (1.9.6)
+    ffi-geos (1.0.0)
+      ffi (>= 1.0.0)
+    rgeo (0.3.20)
+    rgeo-shapefile (0.2.3)
+      dbf (>= 1.7.0)
+      rgeo (>= 0.3.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  ffi-geos
+  rgeo
+  rgeo-shapefile
